@@ -1,0 +1,32 @@
+@import "../../../../../app/styles/padroes/sass/padroes.module.scss";
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background: $pure-white;
+
+  padding: 1rem;
+
+  position: fixed;
+  width: 100%;
+
+  .headerLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+
+    .itensMenu {
+      
+      .link {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $pure-black;
+      }
+    }
+  }
+}

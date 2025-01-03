@@ -1,0 +1,117 @@
+@import "../../../../../app/styles/padroes/sass/padroes.module.scss";
+
+
+.sectionSobreMim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    .title {
+        text-transform: uppercase;
+    }
+
+    .image {
+        width: min-content;
+    }
+}
+
+.informacoesPessoais {
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
+
+    padding: 1rem;
+
+
+    .divisaoInformacoes {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        .dado {
+            
+        }
+
+        .informacaodoDado {
+
+        }
+    }
+}
+
+
+.sectionFormacaoAcademica {
+    padding: 2rem;
+
+    > h3 {
+        // color: red;
+        margin-bottom: 2rem;
+    }
+
+    .divisaoTextoReta {
+        display: flex;
+        gap: 2rem;
+        .retaFormacoes {
+            width: 4px;
+            height: 8rem;
+            background-color: $pure-black;
+    
+    
+            position: relative;
+    
+    
+            .circle1 {
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border-radius: 32rem;
+                left: -0.35rem;
+                background-color: $pure-black;
+                bottom: 5rem;
+            }
+    
+            .circle2 {
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                border-radius: 32rem;
+                left: -0.35rem;
+                background-color: $pure-black;
+                bottom: 2rem;
+            }
+        }
+
+        .text {
+            padding: 1.25rem 1rem 1.25rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+}
+
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    > h3 {
+        // color: red;
+    }
+
+    .divisaoHabilidades {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+
+        .blocoHabilidade {
+            padding: 1.5rem;
+            background-color: $gray;
+        }
+    }
+}
