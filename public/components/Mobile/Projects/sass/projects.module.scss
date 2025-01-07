@@ -1,0 +1,29 @@
+@import "../../../../../app/styles/padroes/sass/padroes.module.scss";
+
+
+.sectionProjects {
+    padding-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    background: $color1;
+    color: $pure-white;
+    
+    .titleProjects {
+        font-size: $fontSize4;
+    }
+
+    .image {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .texto {
+        font-size: $fontSize1;
+        padding: 0 2rem;
+        text-align: center;
+    }
+}

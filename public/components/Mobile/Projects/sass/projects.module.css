@@ -1,1 +1,21 @@
-/*# sourceMappingURL=projects.module.css.map */
+.sectionProjects {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: #1B1A1D;
+  color: #fff;
+}
+.sectionProjects .titleProjects {
+  font-size: 1.125rem;
+}
+.sectionProjects .image {
+  width: 100%;
+  padding: 0 1rem;
+}
+.sectionProjects .texto {
+  font-size: 0.625rem;
+  padding: 0 2rem;
+  text-align: center;
+}/*# sourceMappingURL=projects.module.css.map */
