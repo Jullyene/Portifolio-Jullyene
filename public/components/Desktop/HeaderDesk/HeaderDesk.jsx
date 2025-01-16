@@ -3,7 +3,6 @@ export default function HeaderDesk() {
     return (
         <section>
 
-
             <img src="../../../assets/images/svg/icone-linkedin.svg" alt="Ícone Linkedin" />
 
             <div>
@@ -19,3 +18,6 @@ export default function HeaderDesk() {
         </section>
     )
 }
+
+// TODO : Estilização do componente
+

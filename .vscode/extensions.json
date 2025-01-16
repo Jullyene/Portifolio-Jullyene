@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "wallabyjs.console-ninja",
+        "ecmel.vscode-html-css",
+        "tabnine.tabnine-vscode",
+        "ms-vsliveshare.vsliveshare",
+        "esbenp.prettier-vscode",
+        "fernandakipper.reactcodesnippets",
+        "wayou.vscode-todo-highlight",
+        "styled-components.vscode-styled-components",
+        "ms-ceintl.vscode-language-pack-pt-br"
+    ]
+}
