@@ -1,21 +1,7 @@
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background: #fff;
-  padding: 1rem;
-  position: fixed;
-  z-index: 1;
+.bannerDesk {
+  margin: 0.75rem;
+}
+.bannerDesk .imageBannerDesk {
   width: 100%;
-}
-.header .headerLinks {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-.header .headerLinks .itensMenu .link {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #000;
+  border-radius: 5px;
 }/*# sourceMappingURL=header.module.css.map */

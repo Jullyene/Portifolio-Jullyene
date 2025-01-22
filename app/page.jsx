@@ -7,6 +7,8 @@ import Projects from "@/public/components/Mobile/Projects/Projects";
 import Header from "@/public/components/Mobile/header/Header";
 import HeaderDesk from "@/public/components/Desktop/HeaderDesk/HeaderDesk";
 import BannerDesk from "@/public/components/Desktop/BannerDesk/BannerDesk";
+import Projectsdesk from "@/public/components/Desktop/ProjectsDesk/ProjectsDesk";
+import AboutMeDesk from "@/public/components/Desktop/AboutMeDesk/AboutMeDesk";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -31,7 +33,7 @@ export default function Home() {
           <Banner />
           <SobreMim />
 
-          <Projects
+          {/* <Projects
             success={true}
             urlI='/assets/images/png/centric.png'
             textoAlternativo='Centric'
@@ -54,13 +56,14 @@ export default function Home() {
             urlI='/assets/images/png/anselmi.png'
             textoAlternativo='STIHL'
             texto='Durante o período de Estágio também fiz alterações nas páginas de categoria com nova estilização no breadcrumb nome da coleção e descrição da coleção., sendo possível cadastrar via Site Editor do VTEX IO um banner para a categoria.'
-          />
+          /> */}
         </>
 
       ):(
        <>
          <HeaderDesk/>
          <BannerDesk/>
+         <AboutMeDesk />
        </>
       )}
 

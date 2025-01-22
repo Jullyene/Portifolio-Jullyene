@@ -1,3 +1,6 @@
+
+import Link from 'next/link'
+
 import styles from "./sass/header.module.css"
 
 
@@ -6,18 +9,18 @@ export default function Header() {
       <>
         <section className={styles.header}>
 
-          <a href="https://www.linkedin.com/in/jullyene-patta-ramos-8654b5230/">
+          <a target='_blank' href="https://www.linkedin.com/in/jullyene-patta-ramos-8654b5230/">
             <img src="../../../assets/images/svg/icone-linkedin.svg"/>
           </a>
 
         <div className={styles.headerLinks}>
           <div className={styles.itensMenu}>
-            <a className={styles.link} href="">ABOUT ME</a>
+            <Link className={styles.link} href="#about">ABOUT ME</Link>
           </div>
 
-          <div className={styles.itensMenu}>
-            <a className={styles.link} href="">PROJECTS</a>
-          </div>
+          {/* <div className={styles.itensMenu}>
+            <Link className={styles.link} href="#projects">PROJECTS</Link>
+          </div> */}
         </div>
         </section>
       </>

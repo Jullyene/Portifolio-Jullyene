@@ -1,21 +1,22 @@
-.header {
+.headerDesk {
   display: flex;
-  flex-direction: row;
+  margin: 0.75rem;
+  background: #EBE2E2;
+  padding: 1rem;
+  border-radius: 5px;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
-  padding: 1rem;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
 }
-.header .headerLinks {
+.headerDesk .linkRede {
+  width: 40px;
+}
+.headerDesk .itemsMenu {
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
+  gap: 3rem;
 }
-.header .headerLinks .itensMenu .link {
-  text-transform: uppercase;
+.headerDesk .itemsMenu .link {
   text-decoration: none;
   color: #000;
+  font-weight: 600;
+  letter-spacing: 38%;
 }/*# sourceMappingURL=header.module.css.map */

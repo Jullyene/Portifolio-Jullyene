@@ -3,7 +3,7 @@ import styles from "./sass/sobreMim.module.css"
 
 export default  function SobreMim() {
     return (
-        <section>
+        <section id="about">
             <section className={styles.sectionSobreMim}>
                 <h1 className={styles.title}>ABOUT ME</h1>
                 <img className={styles.image} src="../../../assets/images/png/me.png" alt="Foto minha | Quem sou eu" />

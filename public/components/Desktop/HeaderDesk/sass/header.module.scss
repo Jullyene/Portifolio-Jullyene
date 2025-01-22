@@ -1,2 +1,29 @@
 @import "../../../../../app/styles/padroes/sass/padroes.module.scss";
 
+.headerDesk {
+    display: flex;
+    margin: 0.75rem;
+    background: $graytwo;
+    padding: 1rem;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+    .linkRede {
+        width: 40px;
+    }
+
+
+    .itemsMenu {
+        display: flex;
+        gap: 3rem;
+        
+
+        .link {
+            text-decoration: none;
+            color: $pure-black;
+            font-weight: 600;
+            letter-spacing: 38%;
+        }
+    }
+}

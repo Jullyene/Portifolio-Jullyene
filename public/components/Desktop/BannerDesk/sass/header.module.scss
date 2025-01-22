@@ -1,2 +1,11 @@
 @import "../../../../../app/styles/padroes/sass/padroes.module.scss";
 
+.bannerDesk {
+    margin: .75rem;
+
+    .imageBannerDesk {
+        
+        width: 100%;
+        border-radius: 5px;
+    }
+}
