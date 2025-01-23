@@ -1,4 +1,4 @@
-#Meu Portfólio 💻🎨
+# Meu Portfólio 💻🎨
 Bem-vindo ao repositório do meu portfólio!
 
 Este projeto foi criado com o objetivo de apresentar minha trajetória, habilidades e projetos no campo de Análise e Desenvolvimento de Sistemas. O design foi pensado para ser moderno, criativo e funcional, refletindo minha paixão por tecnologia e inovação.
