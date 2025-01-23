@@ -24,7 +24,7 @@ export default function Projectsdesk() {
                 </div>
 
                 <div className={styles.projectBlock}>
-                    <img className={styles.imageProject} src="https://private-user-images.githubusercontent.com/160196619/342194994-0899401e-d2aa-4ef6-967a-d5e548281082.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzc2NTc2MDQsIm5iZiI6MTczNzY1NzMwNCwicGF0aCI6Ii8xNjAxOTY2MTkvMzQyMTk0OTk0LTA4OTk0MDFlLWQyYWEtNGVmNi05NjdhLWQ1ZTU0ODI4MTA4Mi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEyM1QxODM1MDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNDIyYjEyNTZlNDAwNTM3Yzk2NzM3ZTBmZGVkOWFjMTQzOWVhNGYzMmU4YzdiYjAyYzYyNmFiNTQyMWQwYTNjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.mhWPFTntzt9mOi2Ghmy-x7aKUXENKaWTVYsGOcTf5Kw" alt="site da Centric"/>
+                    <img className={styles.imageProject} src="../../../assets/images/png/salve-o-sul.png" alt="site da Centric"/>
 
                     <h3 className={styles.nameProject}>Projeto de Apoio às Enchentes no RS</h3>
                     <p className={styles.descriptionProject}>Projeto acadêmico realizado durante o período de enchentes no RS, focado em uma corrente de apoio. Desenvolvemos um sistema em C para identificar formas de ajuda e, como iniciativa extra do grupo, criamos um site informativo para ampliar a disseminação de informações e suporte à comunidade. Atualmente, o site está sendo refeito com um design aprimorado, visando melhorar a usabilidade e o impacto visual.</p>
