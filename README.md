@@ -5,9 +5,9 @@ Este projeto foi criado com o objetivo de apresentar minha trajetória, habilida
 
 # 🛠️ Tecnologias Utilizadas
 
-HTML5 e Sass: Estrutura e estilo responsivos.
-React: Funcionalidades interativas.
-Projeto criado em Next.js
+* HTML5 e Sass: Estrutura e estilo responsivos.
+* React: Funcionalidades interativas.
+* Projeto criado em Next.js
 
 # ✨ Funcionalidades
 Design moderno com bordas arredondadas para um toque de suavidade e elegância.
