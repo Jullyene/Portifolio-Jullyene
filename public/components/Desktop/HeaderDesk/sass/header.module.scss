@@ -1,29 +1,40 @@
 @import "../../../../../app/styles/padroes/sass/padroes.module.scss";
 
 .headerDesk {
-    display: flex;
-    margin: 0.75rem;
-    background: $graytwo;
-    padding: 1rem;
-    border-radius: 5px;
-    justify-content: space-between;
-    align-items: center;
+    background-color: $backgroundColor1;
+    position: fixed;
+    top: 0;
+    fill-opacity: 1;
+    width: 100%;
 
-    .linkRede {
-        width: 40px;
+ .redirection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+
+    
+
+    .title {
+        color: $purple1;
+        font-weight: $fontWeight7;
+        font-size: $fontSize6;
     }
 
 
-    .itemsMenu {
+    .redirectionLinks {
         display: flex;
-        gap: 3rem;
-        
+        flex-direction: row;
+        gap: $gap2;
+        align-items: center;
 
-        .link {
+        .links {
+            color: $pure-white;
             text-decoration: none;
-            color: $pure-black;
-            font-weight: 600;
-            letter-spacing: 38%;
+            cursor: pointer;
+            font-size: 100%;
         }
     }
+ }
+
 }

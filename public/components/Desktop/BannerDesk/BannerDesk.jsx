@@ -4,7 +4,7 @@ export default function BannerDesk() {
     return (
         <figure className={styles.bannerDesk}>
 
-            < img className={styles.imageBannerDesk} src="../../../assets/images/png/banner-portifolio.png" alt="Banner Portifólio" />
+            <img className={styles.imageBannerDesk} src="../../../assets/images/png/banner.png" alt="Banner Portifólio" />
 
         </figure>
     )

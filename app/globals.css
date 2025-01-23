@@ -10,3 +10,8 @@
   font-family: Montserrat;
   src: url(../public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
 }
+
+
+body {
+  background-color: rgb(17, 17, 17);
+}

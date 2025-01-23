@@ -1,0 +1,90 @@
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 8rem;
+  gap: 2rem;
+}
+.aboutMe .informationMe {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.aboutMe .informationMe .title {
+  line-height: 2.25rem;
+  font-weight: 700;
+  font-size: 1.875rem;
+  color: #fff;
+}
+.aboutMe .sectionEntire {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.aboutMe .sectionEntire .dataAbout {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+.aboutMe .sectionEntire .dataAbout .data {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  border-radius: 1rem;
+  width: 50%;
+}
+.aboutMe .sectionEntire .dataAbout .data .subtitle {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: #8c52ff;
+  margin-bottom: 1rem;
+}
+.aboutMe .sectionEntire .dataAbout .data .text {
+  color: #fff;
+  line-height: 1.625rem;
+  font-weight: 300;
+}
+.aboutMe .sectionEntire .dataAbout .data .habilities {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.aboutMe .sectionEntire .dataAbout .data .habilities .btnHabilities {
+  padding: 0.5rem;
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  background-color: rgba(168, 85, 247, 0.1019607843);
+  border-radius: 2rem;
+  width: 6rem;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  width: 14%;
+  color: #fff;
+  font-size: 0.875rem;
+}
+.aboutMe .sectionEntire .dataAbout .data .habilities .btnHabilities:hover {
+  background-color: rgba(168, 85, 247, 0.2);
+  border: 1px solid #fff;
+  font-weight: 500;
+}
+.aboutMe .sectionEntire .dataAbout .data .experienceObject {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.aboutMe .sectionEntire .dataAbout .data .experienceObject .descriptionExperience {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.aboutMe .sectionEntire .dataAbout .data .experienceObject .descriptionExperience .description {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.aboutMe .sectionEntire .dataAbout .data .experienceObject .descriptionExperience .function {
+  font-weight: 200;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}/*# sourceMappingURL=aboutMe.module.css.map */

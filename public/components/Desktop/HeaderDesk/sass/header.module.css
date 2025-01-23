@@ -1,22 +1,30 @@
 .headerDesk {
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  position: fixed;
+  top: 0;
+  fill-opacity: 1;
+  width: 100%;
+}
+.headerDesk .redirection {
   display: flex;
-  margin: 0.75rem;
-  background: #EBE2E2;
-  padding: 1rem;
-  border-radius: 5px;
+  flex-direction: row;
   justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+.headerDesk .redirection .title {
+  color: #8c52ff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.headerDesk .redirection .redirectionLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
   align-items: center;
 }
-.headerDesk .linkRede {
-  width: 40px;
-}
-.headerDesk .itemsMenu {
-  display: flex;
-  gap: 3rem;
-}
-.headerDesk .itemsMenu .link {
+.headerDesk .redirection .redirectionLinks .links {
+  color: #fff;
   text-decoration: none;
-  color: #000;
-  font-weight: 600;
-  letter-spacing: 38%;
+  cursor: pointer;
+  font-size: 100%;
 }/*# sourceMappingURL=header.module.css.map */

@@ -3,23 +3,25 @@ import Link from "next/link"
 
 export default function HeaderDesk() {
     return (
-        <section className={styles.headerDesk}>
-
-            <a className={styles.linkRede} target='_blank' href="https://www.linkedin.com/in/jullyene-patta-ramos-8654b5230/">
-                <img src="../../../assets/images/svg/icone-linkedin.svg"/>
-            </a>
-
-            <div>
-                <ul>
-                    <div className={styles.itemsMenu}>
-                        <Link className={styles.link} href="#about">ABOUT ME</Link>
-                        {/* <Link className={styles.link} href="#contact">CONTACT</Link>
-                        <Link className={styles.link} href="#projects">PROJECTS</Link> */}
+        <header className={styles.headerDesk}>
+            <div className={styles.redirection}>
+                <h3 className={styles.title}>Portifólio</h3>
+                <div className={styles.redirectionLinks}>
+                    <div>
+                        <a className={styles.links} href="#">About</a>
                     </div>
-                </ul>
-            </div>
 
-        </section>
+                    <div>
+                        <a className={styles.links}  href="#">Projects</a>
+                    </div>
+
+                    <div>
+                        <a className={styles.links} href="#">Contact</a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
     )
 }
 

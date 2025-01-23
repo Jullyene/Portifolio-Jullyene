@@ -1,0 +1,106 @@
+@import "../../../../../app/styles/padroes/sass/padroes.module.scss";
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 8rem;
+    gap: $gap2;
+    .informationMe {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: $gap01;
+        .title {
+            line-height: 2.25rem;
+            font-weight: $fontWeight7;
+            font-size: $fontSize8;
+            color: $pure-white;
+        }
+    }
+
+    .sectionEntire {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .dataAbout {
+            display: flex;
+            width: 100%;
+            gap: 2rem;
+
+            .data {
+                padding: 2rem;
+                background-color: $backgroundColor1;
+                border-radius: 1rem;
+                width: 50%;
+                
+                .subtitle {
+                    font-size: $fontSize6;
+                    line-height: 2rem;
+                    font-weight: $fontWeight6;
+                    color: $purple1;
+                    margin-bottom: 1rem;
+    
+                }
+                .text {
+                    color: $pure-white;
+                    line-height: 1.625rem;
+                    font-weight: $fontWeight3;
+                }
+    
+                .habilities {
+                    display: flex;
+                    flex-direction: row;
+                    gap: $gap01;
+                    .btnHabilities {
+                        padding: .5rem;
+                        border: $border1;
+                        background-color: $backgroundColor2;
+                        border-radius: 2rem;
+                        width: 6rem;
+                        text-align: center;
+                        align-items: center;
+                        margin-bottom: .5rem;
+                        width: 14%;
+                        color: $pure-white;
+                        font-size: $fontSize2;
+    
+                        &:hover {
+                            background-color: $purple2;
+                            border: 1px solid $pure-white;
+                            font-weight: $fontWeight5;
+                        }
+                    }
+                }
+
+                .experienceObject {
+                    display: flex;
+                    flex-direction: row;
+                    gap: $gap1;
+                    align-items: center;
+                    margin-bottom: 1rem;
+
+                    .descriptionExperience {
+                        display: flex;
+                        flex-direction: column;
+                        color: $pure-white;
+
+                        .description {
+                            font-weight: $fontWeight5;
+                            font-size: $fontSize3;
+                        }
+    
+                        .function {
+                            font-weight: $fontWeight2;
+                            font-size: $fontSize2;
+                            margin-top: .5rem;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+}
