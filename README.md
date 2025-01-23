@@ -20,7 +20,7 @@ Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas (UNIFTEC) e 
 🔗 Acesse o Portfólio
 [https://portifolio-jullyene.vercel.app]
 
-# Como Executar:
+# Como Executar
 
 `` npm install ``
 `` npm run dev ``
