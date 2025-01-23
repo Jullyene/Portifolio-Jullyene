@@ -8,15 +8,15 @@ export default function HeaderDesk() {
                 <h3 className={styles.title}>Portifólio</h3>
                 <div className={styles.redirectionLinks}>
                     <div>
-                        <a className={styles.links} href="#">About</a>
+                        <Link className={styles.links} href="#about">About</Link>
                     </div>
 
                     <div>
-                        <a className={styles.links}  href="#">Projects</a>
+                        <Link className={styles.links}  href="#projects">Projects</Link>
                     </div>
 
                     <div>
-                        <a className={styles.links} href="#">Contact</a>
+                        <Link className={styles.links} href="#contact">Contact</Link>
                     </div>
 
                 </div>
