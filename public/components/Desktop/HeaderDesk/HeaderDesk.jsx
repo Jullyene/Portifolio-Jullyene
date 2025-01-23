@@ -5,7 +5,7 @@ export default function HeaderDesk() {
     return (
         <header className={styles.headerDesk}>
             <div className={styles.redirection}>
-                <h3 className={styles.title}>Portifólio</h3>
+                <h3 className={styles.title}>Portfólio</h3>
                 <div className={styles.redirectionLinks}>
                     <div>
                         <Link className={styles.links} href="#about">About</Link>
