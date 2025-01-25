@@ -10,6 +10,7 @@ import BannerDesk from "@/public/components/Desktop/BannerDesk/BannerDesk";
 import ProjectsDesk from "@/public/components/Desktop/ProjectsDesk/ProjectsDesk";
 import AboutMeDesk from "@/public/components/Desktop/AboutMeDesk/AboutMeDesk";
 import ContactDesk from "@/public/components/Desktop/ContactDesk/ContactDesk";
+import Contact from "@/public/components/Mobile/Contact/Contact";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -33,6 +34,8 @@ export default function Home() {
           <Header/>
           <Banner />
           <SobreMim />
+          <Projects/>
+          <Contact />
         </>
 
       ):(

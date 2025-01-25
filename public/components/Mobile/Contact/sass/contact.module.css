@@ -1,0 +1,41 @@
+.sectionContact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sectionContact .contact {
+  display: flex;
+  flex-direction: row;
+  padding: 0 5rem;
+  gap: 0.5rem;
+}
+.sectionContact .contact .titleContact {
+  color: #fff;
+}
+.sectionContact .informationContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+.sectionContact .informationContact .text {
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding: 0rem 1rem;
+  text-align: center;
+}
+.sectionContact .informationContact .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.sectionContact .informationContact .links .linkContact {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #8c52ff;
+  padding: 1rem;
+}/*# sourceMappingURL=contact.module.css.map */

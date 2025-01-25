@@ -1,21 +1,15 @@
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background: #fff;
-  padding: 1rem;
+.headerMobile {
+  background: rgba(0, 0, 0, 0.5019607843);
   position: fixed;
-  z-index: 1;
+  top: 0;
   width: 100%;
-}
-.header .headerLinks {
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
 }
-.header .headerLinks .itensMenu .link {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #000;
+.headerMobile .title {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #8c52ff;
 }/*# sourceMappingURL=header.module.css.map */

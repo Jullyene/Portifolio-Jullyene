@@ -1,0 +1,50 @@
+@import "../../../../../app/styles/padroes/sass/padroes.module.scss";
+
+.sectionContact {
+    display: flex;
+    flex-direction: column;
+    gap: $gap2;
+    
+    .contact {
+        display: flex;
+        flex-direction: row;
+        padding: 0 5rem;
+
+        gap: $gap01;
+        .titleContact {
+            color: $pure-white;
+        }
+    }
+
+    .informationContact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: $gap1;
+        align-items: center;
+        margin-bottom: 8rem;
+
+        .text {
+            color: $pure-white;
+            font-size: $fontSize4;
+            line-height: 1.75rem;
+            padding: 0rem 1rem;
+            text-align: center;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: $gap1-5;
+           
+            .linkContact {
+                background-color: transparent;
+                border-radius: 5px;
+                border: 2px solid $purple1;
+                padding: 1rem;
+            }
+        }
+
+    }
+}

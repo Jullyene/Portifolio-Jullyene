@@ -1,29 +1,66 @@
 @import "../../../../../app/styles/padroes/sass/padroes.module.scss";
 
 
-.sectionProjects {
-    padding-top: 1rem;
-
+.projects {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+    padding: 1rem;
+    gap: $gap2;
+    margin-top: 4rem;
 
-    background: $color1;
-    color: $pure-white;
+    .texts {
+        display: flex;
+        gap: $gap01;
+
+        .subtitles {
+            font-weight: $fontWeight7;
+            font-size: $fontSize8;
+            line-height: 2.25rem;
+            color: $pure-white;
+        }
+    }
+
+    .sectionSpecifies {
+        display: flex;
+        flex-direction: column;
+        gap: $gap1-5;
+        
+
+        .projectBlock {
+            padding: 1.5rem;
+            background-color: $backgroundColor1;
+            border-radius: .5rem;
+            display: flex;
+            flex-direction: column;
+            gap: $gap1;
+            color: $pure-white;
+
+            .imageProject {
+                width: 100%;
+                border-radius: .5rem;
+            }
+
+            .nameProject {
+                font-weight: $fontWeight6;
+                font-size: $fontSize5;
+                line-height: 1.75rem;
+
+            }
+
+            .descriptionProject {
+                line-height: 1.625rem;
+                font-size: 0.875rem;
+                font-weight: $fontWeight3;
+            }
+        }
+    }
     
-    .titleProjects {
-        font-size: $fontSize4;
-    }
+    .sectionVideo {
 
-    .image {
-        width: 100%;
-        padding: 0 1rem;
-    }
-
-    .texto {
-        font-size: $fontSize1;
-        padding: 0 2rem;
-        text-align: center;
+        .videoBanner {
+            width: 100%;
+            border-radius: 0.5rem;
+            margin: 3rem 0;
+        }
     }
 }
