@@ -48,6 +48,7 @@
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 .aboutMe .sectionEntire .dataAbout .data .habilities .btnHabilities {
   padding: 0.5rem;
@@ -58,7 +59,6 @@
   text-align: center;
   align-items: center;
   margin-bottom: 0.5rem;
-  width: 14%;
   color: #fff;
   font-size: 0.875rem;
 }

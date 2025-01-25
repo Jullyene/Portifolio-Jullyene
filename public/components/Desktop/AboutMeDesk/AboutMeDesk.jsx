@@ -19,18 +19,42 @@ export default function AboutMeDesk() {
                     <div className={styles.data}>
                         <h3 className={styles.subtitle}>Habilidades</h3>
 
-                    <div className={styles.habilities}>
-                        <p className={styles.btnHabilities}>React</p>
-                        <p className={styles.btnHabilities}>JavaScript</p>
-                        <p className={styles.btnHabilities}>TypeScript</p>
-                        <p className={styles.btnHabilities}>VTEX IO</p>
-                        <p className={styles.btnHabilities}>HTML</p>
-                        <p className={styles.btnHabilities}>CSS</p>
-                        <p className={styles.btnHabilities}>Sass</p>
-                    </div>
-
                         <div className={styles.habilities}>
-                            <p className={styles.btnHabilities}>Next.js</p>
+
+                            <div>
+                                <p className={styles.btnHabilities}>React</p>
+
+                            </div>
+
+                            <div>
+                                <p className={styles.btnHabilities}>JavaScript</p>
+                            </div>
+
+                            <div>
+                                <p className={styles.btnHabilities}>TypeScript</p>
+                            </div>
+                            
+                            <div>
+                                <p className={styles.btnHabilities}>VTEX IO</p>
+                            </div>
+                            
+                            <div>
+                                <p className={styles.btnHabilities}>HTML</p>
+
+                            </div>
+
+                            <div>
+                                <p className={styles.btnHabilities}>CSS</p>
+
+                            </div>
+
+                            <div>
+                                <p className={styles.btnHabilities}>Sass</p>
+                            </div>
+
+                            <div>
+                                <p className={styles.btnHabilities}>Next.js</p>
+                            </div>
                         </div>
                     </div>
                 </div>
