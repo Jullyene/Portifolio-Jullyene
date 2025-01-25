@@ -22,7 +22,7 @@ export default function Home() {
     const largura = window.innerWidth;
 
     setrenderizarJanela(altura > largura);
-  }, [])
+  },)
 
 
 

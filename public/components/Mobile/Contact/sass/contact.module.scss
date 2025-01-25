@@ -8,8 +8,7 @@
     .contact {
         display: flex;
         flex-direction: row;
-        padding: 0 5rem;
-
+        justify-content: center;
         gap: $gap01;
         .titleContact {
             color: $pure-white;
