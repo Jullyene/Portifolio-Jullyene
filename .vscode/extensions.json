@@ -8,6 +8,7 @@
         "fernandakipper.reactcodesnippets",
         "wayou.vscode-todo-highlight",
         "styled-components.vscode-styled-components",
-        "ms-ceintl.vscode-language-pack-pt-br"
+        "ms-ceintl.vscode-language-pack-pt-br",
+        "icrawl.discord-vscode"
     ]
 }
